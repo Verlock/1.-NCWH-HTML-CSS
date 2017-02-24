@@ -1,0 +1,132 @@
+/*
+
+Link to color palette : http://www.color-hex.com/color-palette/32817
+
+Dark Brown : #5C4943 (92,73,67)
+Mid Brown : #966645 (150,102,69)
+Light Brown : #CE9565 (206,149,101)
+Tan : #F9BA80 (249,186,128)
+Cream : #FFFDD7 (255,253,215)
+
+
+*/
+
+/* |General Styles| */
+body{
+  margin: 0;
+  padding: 0;
+  background: #F9BA80;
+}
+hr{
+  margin-bottom: 10%;
+}
+/* |Gride System| */
+main{
+  width: 1600px;
+  padding: 0 20%;
+}
+
+.half-width{
+  width: 800px;
+  float: left;
+}
+
+.half-width-img{
+  width: 400px;
+  float: left;
+}
+
+
+/* |Header Section| */
+header{
+  background: #5C4943;
+  height: 100px;
+}
+nav{
+  margin: 0 20%;
+  color: #FFFDD7;
+}
+
+nav h1, nav ul{
+  float: left;
+}
+
+nav ul{
+  margin-left: 55%;
+  background: #966645;
+  width: 16%;
+  height: 50px;
+  border: 5px solid #CE9565;
+  border-radius: 40px;
+}
+
+nav li{
+  list-style: none;
+
+}
+
+#brand{
+  text-transform: uppercase;
+  font-size: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a{
+  font-size: 40px;
+  text-decoration: none;
+  color: #FFFDD7;
+}
+
+/* |Main Info - First Page| */
+#main-content{
+  color: #000;
+}
+
+#main-content h2{
+  font-size: 50px;
+}
+
+#main-content p{
+  font-size: 30px;
+}
+
+#main-img img{
+  width: 500px;
+  height: 500px;
+  margin: 10%;
+  border: 3px solid #000;
+}
+
+/* |Sub Info - First Page| */
+.form{
+  width: 400px;
+  background: #966645;
+  color:#FFFDD7;
+  font-size: 30px;
+  text-align: center;
+  padding: 1%;
+  border: 5px solid #5C4943;
+  border-radius: 50px;
+}
+
+.form h3{
+  font-size: 65px;
+  margin: 1%;
+  padding: 1%;
+}
+
+
+/* |Footer| */
+footer{
+  clear: both;
+  background: #5C4943;
+  color: #FFFDD7;
+  height: 10%;
+}
+
+footer h6{
+  padding-top: 1%;
+  text-align: center;
+  font-size: 30px;
+}
