@@ -16,6 +16,7 @@ body{
   margin: 0;
   padding: 0;
   background: #F9BA80;
+  font-family: 'Sansita', sans-serif;
 }
 hr{
   margin-bottom: 10%;
@@ -24,6 +25,7 @@ hr{
 main{
   width: 1600px;
   padding: 0 20%;
+  text-transform: capitalize;
 }
 
 .half-width{
